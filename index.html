@@ -122,69 +122,40 @@
 
 
 
-          <p>Figure 1: Explore the <a href="https://datawrapper.dwcdn.net/fdcm0/">interactive chart</a> AND ADD your description of the chart here. Make sure your caption includes a direct link to your published chart or map in case the embed code fails to display.</p>
 
-          <p>If you need to create a table, use the <a href="https://www.tablesgenerator.com/html_tables">Tables Generator HTML tool</a>. Go to File > Import or manually enter your table data, then Generate the HTML code, and paste it here, similar to the sample below. </p>
+      <p>This data gives necessary information about the socio-economic context of the locations of homes built by Habitat for Humanity in Hartford and Tolland County. What we discovered was that the large majority (85%) of Habitat homes have been built in neighborhoods that we considered to be in “low-income” census tracts.</p>
 
-          <style type="text/css">
-          .tg  {border-collapse:collapse;border-spacing:0;}
-          .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-            overflow:hidden;padding:10px 5px;word-break:normal;}
-          .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-            font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-          .tg .tg-lqy6{text-align:right;vertical-align:top}
-          .tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-          .tg .tg-dvpl{border-color:inherit;text-align:right;vertical-align:top}
-          </style>
-          <table class="tg">
-          <thead>
-            <tr>
-              <th class="tg-0pky">Header A</th>
-              <th class="tg-0pky">Header B</th>
-              <th class="tg-0pky">Header C</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="tg-dvpl">123</td>
-              <td class="tg-dvpl">456</td>
-              <td class="tg-dvpl">789</td>
-            </tr>
-            <tr>
-              <td class="tg-lqy6">987</td>
-              <td class="tg-lqy6">654</td>
-              <td class="tg-lqy6">321</td>
-            </tr>
-          </tbody>
-          </table>
 
-          <p>Table 1: Add your caption here.</p>
 
-          <h4>Optional Subheaders: Use H4 tags to break up long sections</h4>
 
-          <p>All of your data visualizations should be interactive. But if you need to insert a static image, you can upload a JPG or PNG to the GitHub repo, and insert it using the HTML img tag as shown below.</p>
 
-          <img src="sample-image.jpg" style="width: 100%; margin: 30px 0">
-
-          <p>Figure 2: Describe your image in a caption, and always credit the source if someone else created it.</p>
-
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Data section-->
   <section id="data" class="bg-light">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Data</h2>
-          <p>Describe how you obtained your data and identify key steps so that readers can understand your methods and reproduce them in the future. Write in HTML format and include links when appropriate.</p>
-        </div>
+          <h2>Methods</h2>
+          <p>	In order to create the Income Level Map, Riley and Victoria used data from the 2019 US Census Bureau to find the median household income of each census tract in Hartford County. We then used the V-Lookup feature on Google Sheets to link together the location of homes that had been built by Habitat for Humanity to the census tract data to find the house-hold income of the neighborhoods where each Habitat home was constructed. Riley then looked at the income of each neighborhood and separated the location of Habitat homes into the high, middle, or low income category. Then, she used a pivot table to count the number of homes in each income category and calculated the percentage of each group and put the information into Datawrapper to create a column chart for proper visualization. </p>
+          
+          <p>	To create the Opportunity Index chart, we used the publicly available data from the Open Community Alliance’s website on how they created their opportunity map.  Victoria then downloaded this data and matched it with the Habitat Homes data by using the V-Lookup feature on Google Sheets.  Because the data was already coded into categories from “very low” to “very high” we did not have to come up with any new criteria ourselves.  Victoria then created a pivot table to count how many homes were in each category.  She used a formula in Google Sheets to calculate the percentages, and then used the percentage data to create the chart.  </p>
+        
+ 
+  <!-- Conclusion section-->
+  <section id="conclusion" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Conclusion</h2>
+          <p>We recognize that Habitat builds and refurbishes homes wherever the abandoned property is available, and that abandoned property is more likely to be located in areas with lower average incomes and less opportunity.  Even though the majority of homes built by Habitat for Humanity in Hartford county are located in low-income and low-opportunity neighborhoods could be seen as a potentially negative phenomenon, it could also be seen as Habitat providing necessary resources to North-Central Connecticut’s most in-need areas. Owning a home, as opposed to short-term renting, provides significant social and economic benefits. For example:</p>
+          <p style="margin left: 40px"> US homeowners have an average net worth that is 400% higher than that of renters that share similar demographics and earnings. </p>
+          <p style'"margin left: 40px"> Children of homeowners are 25% more likely to graduate high school and 116% more likely to graduate college. </p>
+          <p>The work being done by Habitat can change the trajectory of the lives of people they support by assisting Hartford residents in accumulating wealth through homeownership. Those in low-income and low-opportunity neighborhoods will benefit the most from the work done by Habitat for Humanity in Hartford County. </p>
+          
+         </div>
       </div>
     </div>
   </section>
-
   <!-- Credits section-->
   <section id="credits">
     <div class="container">
